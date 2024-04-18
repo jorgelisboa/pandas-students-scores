@@ -28,7 +28,7 @@ def get_filtered_data():
     table.drop(rows_to_drop, inplace=True)
 
     # Checa por "X" ou NaN ou "#ERROR!" e substitui por 0
-    table.replace({"X":0, nan:0, "#ERROR!": 0}, inplace=True) 
+    table.replace({"X":0, nan:0, "#ERROR!": 0, "-":0}, inplace=True) 
 
     
     return table
