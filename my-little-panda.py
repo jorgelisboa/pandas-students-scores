@@ -2,7 +2,7 @@ import pandas as pd
 from math import nan
 
 def make_peso(serie, peso):
-    print("Series que analisaremos e o peso (ex: 0.3)")
+    print("Series que vemos e o peso (ex: 0.3)")
 
 def sum_pesos(series):
     print("Pega as 5 notas, e soma com o peso")
